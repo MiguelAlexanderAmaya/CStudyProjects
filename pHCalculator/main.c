@@ -24,9 +24,13 @@ int main()
     {
         case 'H':
             printf("You've selected H3O+. \n");
+            printf("Write the concentration(M): (ex. 1.00e-7) ");
+            scanf("%lf", &h3o);
             break;
         case 'O':
             printf("You've selected OH-. \n");
+            printf("Write the concentration(M): (ex. 1.00e-7) ");
+            scanf("%lf", &oh);
             break;
         default:
             printf("You haven't selected a valid option. Exiting.");
