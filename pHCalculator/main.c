@@ -12,10 +12,10 @@
 
 int main()
 {
-    double h3o;
-    double oh;
-    double ph;
-    char option;
+    double h3o;  // Concentration of H3O+; M
+    double oh;   // Concentration of OH- ; M
+    double ph;   // Result               ; pH
+    char option; // Option where user select either h3o or oh
 
     return 0;
 }
