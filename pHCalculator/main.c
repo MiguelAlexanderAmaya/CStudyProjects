@@ -20,5 +20,15 @@ int main()
     printf("Please select an option((H)3O+/(O)H-): ");
     scanf("%s", &option);
 
+    switch(option)
+    {
+        case 'H':
+            break;
+        case 'O':
+            break;
+        default:
+            exit(0);
+    }
+
     return 0;
 }
