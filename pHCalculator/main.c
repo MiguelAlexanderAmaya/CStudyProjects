@@ -35,7 +35,7 @@ int main()
             ph = 14 + log10(oh);
             break;
         default:
-            printf("You haven't selected a valid option. Exiting.");
+            printf("You haven't selected a valid option. Exiting.\n");
             exit(0);
     }
 
