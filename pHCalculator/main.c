@@ -39,5 +39,7 @@ int main()
             exit(0);
     }
 
+    printf("Result: pH is %.2lf \n", ph);
+
     return 0;
 }
