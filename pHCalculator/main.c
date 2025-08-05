@@ -12,5 +12,10 @@
 
 int main()
 {
+    double h3o;
+    double oh;
+    double ph;
+    char option;
+
     return 0;
 }
