@@ -23,10 +23,13 @@ int main()
     switch(option)
     {
         case 'H':
+            printf("You've selected H3O+. \n");
             break;
         case 'O':
+            printf("You've selected OH-. \n");
             break;
         default:
+            printf("You haven't selected a valid option. Exiting.");
             exit(0);
     }
 
