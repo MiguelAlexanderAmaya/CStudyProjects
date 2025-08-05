@@ -17,5 +17,8 @@ int main()
     double ph;   // Result               ; pH
     char option; // Option where user select either h3o or oh
 
+    printf("Please select an option((H)3O+/(O)H-): ");
+    scanf("%s", &option);
+
     return 0;
 }
